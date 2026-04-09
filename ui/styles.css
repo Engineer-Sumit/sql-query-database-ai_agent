@@ -1,0 +1,71 @@
+body {
+    background-color: #020617;
+}
+
+.card {
+    background: #0f172a;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #1e293b;
+}
+
+/* main sidebar design */
+
+.sidebar-container {
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+.sidebar-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    background: linear-gradient(90deg, #60a5fa, #a855f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+.sidebar-text {
+    color: #94a3b8;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.sidebar-footer {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 300px;
+    background-color: rgba(96, 165, 250, 0.1);
+    padding: 7.5px;
+    border-radius: 8px;    
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: whitesmoke;
+    text-align: center;    
+}
+
+/* anchor(<a>) */
+.sidebar-footer a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.sidebar-footer:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+/* Sidebar width control */
+section[data-testid ="stSidebar"] {
+    width: 340px !important;
+}
