@@ -1,6 +1,5 @@
-# 🤖 AI-Powered Natural Language to SQL (NL2SQL) System
+# 🤖 SQL Query AI Agent
 
-🔗 [Live Demo](your-link) | 📂 [GitHub Repo](your-repo-link)
 
 An AI-driven system that converts natural language queries into SQL commands and executes them on a database, enhanced with Explainable AI (XAI) for transparency and trust.
 
