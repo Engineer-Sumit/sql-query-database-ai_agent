@@ -92,12 +92,6 @@ Final Output + Explanation
 
 ---
 
-## 📷 Project Preview
-<!-- Add screenshots here -->
-![App Screenshot](add-your-image-link)
-
----
-
 ## 🔐 Safety Features
 - Blocks destructive queries (DROP, ALTER, DELETE ALL)  
 - Prevents invalid SQL execution  
